@@ -3,7 +3,6 @@ class Book
       @title = title
     end
 
-    attr_accessors :name :count 
-      
-end
+    attr_accessor :name 
 
+end
